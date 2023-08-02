@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>airpods.png</file>
+        <file>images/airpods.png</file>
     </qresource>
 </RCC>

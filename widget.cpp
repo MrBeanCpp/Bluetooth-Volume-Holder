@@ -100,6 +100,7 @@ void Widget::paintEvent(QPaintEvent* event)
 {
     QPainter painter(this);
     painter.setRenderHint(QPainter::Antialiasing);
-    painter.setBrush(Qt::white);
-    painter.drawRoundedRect(event->rect(), 20, 20);
+    painter.setBrush(QColor(253,253,253));
+    painter.setPen(Qt::NoPen);
+    painter.drawRoundedRect(event->rect(), 35, 35);
 }

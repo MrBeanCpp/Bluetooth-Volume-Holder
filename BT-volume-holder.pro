@@ -32,4 +32,4 @@ LIBS += -lpsapi -luser32 -lWinmm -lole32
 RESOURCES += \
     res.qrc
 
-RC_ICONS = ICON.ico
+RC_ICONS = images/ICON.ico

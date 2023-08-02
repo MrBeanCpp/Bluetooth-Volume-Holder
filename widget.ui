@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>556</width>
-    <height>341</height>
+    <width>533</width>
+    <height>396</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -50,7 +50,7 @@ font: 36pt &quot;Microsoft YaHei UI&quot;;</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="res.qrc">:/airpods.png</pixmap>
+         <pixmap resource="res.qrc">:/images/airpods.png</pixmap>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -61,7 +61,7 @@ font: 36pt &quot;Microsoft YaHei UI&quot;;</string>
        <widget class="QLabel" name="label_vol">
         <property name="font">
          <font>
-          <family>Calibri</family>
+          <family>Microsoft YaHei UI</family>
           <pointsize>36</pointsize>
           <italic>false</italic>
           <bold>false</bold>
@@ -69,8 +69,7 @@ font: 36pt &quot;Microsoft YaHei UI&quot;;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(54, 54, 54);
-font: 36pt &quot;Calibri&quot;;
-background-color: transparent;</string>
+font: 36pt &quot;Microsoft YaHei UI&quot;;</string>
         </property>
         <property name="text">
          <string>18</string>

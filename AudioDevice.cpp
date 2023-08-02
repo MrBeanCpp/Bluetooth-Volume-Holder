@@ -15,7 +15,7 @@ bool AudioDevice::isNull()
 QString AudioDevice::getPureName()
 {
     static auto _getPureName = [](const QString& name) -> QString { //get name in ()
-        static QRegExp rx("\\(([^\\)]+)\\)");
+        static QRegExp rx("\\((.+)\\)");
         if (rx.indexIn(name) != -1)
             return rx.cap(1);
         return "";
